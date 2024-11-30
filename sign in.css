@@ -123,3 +123,25 @@ span{
     margin-left: 70px;
     margin-bottom: 100px
 }
+@media screen and (max-width: 768px) {
+    .signin-container {
+        padding: 55px;
+    }
+
+    .footer {
+        gap: 10px;
+    }
+
+    .footer-content {
+        flex: 1 1 100%; /* Make each column full-width */
+        text-align: center;
+    }
+
+    .footer-content ul {
+        font-size: 0.9em; /* Reduce font size */
+    }
+
+    .header {
+        padding: 10px 5%;
+    }
+}
