@@ -71,6 +71,7 @@ body{
 }
 .signin-container p {
     margin-top: 10px;
+    list-style: none;
     text-decoration: none;
     color: #fff;
 
