@@ -124,25 +124,57 @@ span{
     margin-left: 70px;
     margin-bottom: 100px
 }
-@media screen and (max-width: 768px) {
-    .signin-container {
-        padding: 55px;
-    }
-
-    .footer {
-        gap: 10px;
-    }
-
-    .footer-content {
-        flex: 1 1 100%; /* Make each column full-width */
-        text-align: center;
-    }
-
-    .footer-content ul {
-        font-size: 0.9em; /* Reduce font size */
-    }
-
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
     .header {
+        height: 85vh;
+    }
+    .signin-container {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 80vh;
         padding: 10px 5%;
+    }
+    .signin-container {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 60vh;
+    }
+    .logo {
+        width: 120px;
+    }
+    .signin-container {
+        width: 95%;
+        padding: 30px;
+    }
+    .signin-container h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        height: 50vh;
+    }
+    .logo {
+        width: 100px;
+    }
+    .signin-container {
+        padding: 25px;
+    }
+    .signin-container h2 {
+        font-size: 20px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
     }
 }
